@@ -92,14 +92,155 @@ section {
   position: absolute;
   bottom: 0;
   width: 230px;
-  margin: 100px 76px 0 65px;
+  margin: 105px 76px 0 60px;
 }
 .rectangle-container {
   display: flex;
   justify-content: center;
   gap: 27px;
+  margin-top: 40px;
 }
 .second-div img {
   width: 320px;
   margin: 96px 50px 15px 34px;
+}
+.underline-para {
+  color: #272727;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  margin-top: 22px;
+}
+/* bonus section starts from here */
+.bonus-section-container {
+  display: flex;
+  padding: 60px;
+  border: 1px solid #b3b3b3;
+  margin: 25px;
+  box-shadow: 1px 1px 2px 2px rgb(119, 94, 94);
+}
+.left-bonus {
+  width: 50%;
+}
+
+.card {
+  display: flex;
+  gap: 30px;
+  border-bottom: 1px solid crimson;
+  padding: 30px;
+  align-items: center;
+}
+.card-img {
+  width: 120px;
+}
+.icon-heading {
+  color: #272727;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  margin-top: 18px;
+}
+.icon-desc {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-top: 17px;
+}
+.buy-btn {
+  padding: 8px 20px;
+  border: none;
+  outline: 0;
+  background: transparent;
+  outline: 1px solid coral;
+  border-radius: 7px;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 13px;
+}
+.right-bonus {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+.right-heading-one {
+  color: #272727;
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+.right-heading-two {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.right-heading-desc {
+  color: #272727;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+}
+.right-bonus-content {
+  border: 1px solid #d8d8d8;
+  padding: 10px;
+  border-radius: 7px;
+}
+.bonus-title {
+  color: #272727;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+.bonus-desc {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.special-occasions-flowers {
+  width: 50%;
+  height: 80px;
+  background: rgb(255, 246, 227);
+
+  margin: auto;
+  margin-top: -50px;
+  border-radius: 23px 0 23px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(255, 219, 174);
+}
+.italic {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.click-me {
+  padding: 8px 20px;
+  border: none;
+  outline: 0;
+  background: coral;
+  border-radius: 23px 0 23px 0;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
 }
