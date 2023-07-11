@@ -318,3 +318,71 @@ section {
   cursor: pointer;
 }
 /* bonus section ends from here */
+
+/* letest deals section starts from here */
+.letest-deal {
+  width: 75%;
+  height: 400px;
+  margin: auto;
+  margin-top: 100px;
+}
+.letest-deal-container {
+  background: url("./images/rectangle9.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+.letest-deal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.letest-heading {
+  color: #272727;
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+.letest-desc {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  margin-top: 10px;
+}
+.input {
+  margin-top: 60px;
+}
+input {
+  width: 600px;
+  height: 25px;
+  border: none;
+  outline: 0;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+input::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.subscribe-btn {
+  padding: 15px 20px;
+  border: none;
+  outline: 0;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #e55473;
+}
+/* letest deals section ends from here */
