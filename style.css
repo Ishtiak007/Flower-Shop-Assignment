@@ -114,6 +114,81 @@ section {
   text-decoration-line: underline;
   margin-top: 22px;
 }
+/* featured section ends from here */
+/* hot deal section starts from here */
+.hot-deal-container {
+  width: 100%;
+  height: 65vh;
+  background: rgba(229, 84, 115, 0.1);
+}
+.hot-deal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 165px;
+}
+
+.left-deal {
+  text-align: center;
+}
+.left-deal-heading {
+  color: #272727;
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+}
+.left-deal-desc {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 14px;
+}
+.sign-up-btn {
+  padding: 12px 27px;
+  border: none;
+  outline: 0;
+  background: #e55473;
+  border-radius: 7px;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 14px;
+}
+.deal-image {
+  width: 265px;
+}
+/* hot deal section ends from here */
+/* instargam section starts from here */
+.instagram-section-title {
+  color: #272727;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+.instagram-section-desc {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 9px;
+  margin-bottom: 35px;
+}
+.instagram-section-container {
+  display: flex;
+  justify-content: center;
+}
+.instagram-section-image {
+  width: 280px;
+  margin: 0 12px;
+}
+/* instagram ends from here */
 /* bonus section starts from here */
 .bonus-section-container {
   display: flex;
@@ -222,7 +297,6 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid rgb(255, 219, 174); */
 }
 .italic {
   color: rgba(39, 39, 39, 0.6);
@@ -243,30 +317,4 @@ section {
   font-weight: 600;
   cursor: pointer;
 }
-/* instargam section starts from here */
-.instagram-section-title {
-  color: #272727;
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  font-size: 40px;
-  font-weight: 800;
-}
-.instagram-section-desc {
-  color: rgba(39, 39, 39, 0.6);
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  margin-top: 9px;
-  margin-bottom: 35px;
-}
-.instagram-section-container {
-  display: flex;
-  justify-content: center;
-}
-.instagram-section-image {
-  width: 280px;
-  margin: 0 12px;
-}
-/* instagram ends from here */
+/* bonus section ends from here */
