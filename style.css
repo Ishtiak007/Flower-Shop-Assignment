@@ -55,6 +55,9 @@ section {
   font-weight: 600;
   cursor: pointer;
 }
+.shop-btn:hover {
+  background-color: #ff1749;
+}
 /* banner section ends from here */
 
 /* featured section starts from here */
@@ -115,6 +118,7 @@ section {
   margin-top: 22px;
 }
 /* featured section ends from here */
+
 /* hot deal section starts from here */
 .hot-deal-container {
   width: 100%;
@@ -158,10 +162,14 @@ section {
   cursor: pointer;
   margin-top: 14px;
 }
+.sign-up-btn:hover {
+  background-color: #ff1749;
+}
 .deal-image {
   width: 265px;
 }
 /* hot deal section ends from here */
+
 /* instargam section starts from here */
 .instagram-section-title {
   color: #272727;
@@ -189,6 +197,7 @@ section {
   margin: 0 12px;
 }
 /* instagram ends from here */
+
 /* bonus section starts from here */
 .bonus-section-container {
   display: flex;
@@ -240,6 +249,12 @@ section {
   font-weight: 600;
   cursor: pointer;
   margin-top: 13px;
+  transition: 0.3s;
+}
+.buy-btn:hover {
+  background: coral;
+  color: #fff;
+  outline: 1px solid black;
 }
 .right-bonus {
   width: 50%;
@@ -297,6 +312,10 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.3s;
+}
+.special-occasions-flowers:hover {
+  box-shadow: 1px 1px 1px 1px;
 }
 .italic {
   color: rgba(39, 39, 39, 0.6);
@@ -316,6 +335,12 @@ section {
   font-size: 17px;
   font-weight: 600;
   cursor: pointer;
+  transition: 0.3s;
+}
+.click-me:hover {
+  background: transparent;
+  color: rgba(39, 39, 39, 0.6);
+  outline: 1px solid coral;
 }
 /* bonus section ends from here */
 
@@ -384,6 +409,9 @@ input::placeholder {
   cursor: pointer;
   border-radius: 8px;
   background: #e55473;
+}
+.subscribe-btn:hover {
+  background: #ff1e4e;
 }
 /* letest deals section ends from here */
 
