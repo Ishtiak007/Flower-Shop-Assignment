@@ -216,14 +216,13 @@ section {
   width: 50%;
   height: 80px;
   background: rgb(255, 246, 227);
-
   margin: auto;
   margin-top: -50px;
   border-radius: 23px 0 23px 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgb(255, 219, 174);
+  /* border: 1px solid rgb(255, 219, 174); */
 }
 .italic {
   color: rgba(39, 39, 39, 0.6);
@@ -244,3 +243,30 @@ section {
   font-weight: 600;
   cursor: pointer;
 }
+/* instargam section starts from here */
+.instagram-section-title {
+  color: #272727;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+.instagram-section-desc {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 9px;
+  margin-bottom: 35px;
+}
+.instagram-section-container {
+  display: flex;
+  justify-content: center;
+}
+.instagram-section-image {
+  width: 280px;
+  margin: 0 12px;
+}
+/* instagram ends from here */
